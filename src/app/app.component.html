@@ -1,0 +1,4 @@
+<input type="text" [(ngModel)]="phrase" value="something" (ngModelChange)="phraseLength()">
+<ul *ngFor="let item of filteredElements">
+    <li appHighlight [text]="item" [length]="change"></li>
+</ul>
